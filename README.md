@@ -41,10 +41,7 @@ A simplified diagram lives at `docs/diagram.png`.
 ## Repository map
 | Path | Purpose |
 |------|---------|
-| `notebooks/Main.ipynb` | end‑to‑end experiment: preprocessing → training → evaluation |
-| `utils/preprocess.py`  | implements the five‑stage audio pipeline described in § 6.1.2 |
-| `utils/generate.py`    | `SoundGenerator` class for spectrogram → waveform (§ 6.1.7) |
-| `spectrograms/`        | generated log‑spectrogram PNGs + min‑max stats |
+| `Main.ipynb` | end‑to‑end experiment: preprocessing → training → evaluation → spectrogram generaton → waveform |
 | `thesis.pdf`           | full 40‑page write‑up (methods, results, discussion) |
 
 ---
